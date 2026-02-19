@@ -11,9 +11,9 @@ touch ./log.txt
 echo "开始时间：$(date '+%Y-%m-%d %H:%M:%S')" >> ./log.txt
 
 point=443                                   # 目标端口（cfst测速的端口，常用443）
-x_email=doyil12897@infornma.com              # Cloudflare账号邮箱
-zone_id=26390c4470b764b6c625c263bb0bc723     # Cloudflare Zone ID
-api_key=8d9c8e27b998555cd71d68a12c50ee7abf3fd # Cloudflare Global API Key / API Key
+x_email=              # Cloudflare账号邮箱
+zone_id=     # Cloudflare Zone ID
+api_key= # Cloudflare Global API Key / API Key
 CFST_URL_R="-url https://xn--e1a.eu.org/300.zip"   # 下载测速用的测试文件URL, 测速网址更新https://github.com/XIU2/CloudflareSpeedTest/discussions/490
 CFST_N=200                                  # 测速线程数（并发数量，越大越快但更吃CPU/网络）
 CFST_T=4                                    # 每个IP的测速次数（延迟/HTTPing探测次数）
